@@ -130,8 +130,8 @@ a:active { opacity: .72; }
 }
 
 #palette-forest:checked ~ .site-shell {
-  --ink: #10291d; --heading: #177a45; --muted: #667a6e; --muted-strong: #385447; --paper: #ffffff; --paper-deep: #f7fbf7; --surface: #ffffff;
-  --line: rgba(16, 41, 29, .15); --line-subtle: rgba(16, 41, 29, .09); --forest: #238a50; --forest-deep: #176b3d; --moss: #d9f0e0; --blue: #238a50; --blue-pale: #eff9f1; --orange: #238a50; --link: #177a45; --link-hover: #115b31; --action-bg: #177a45; --action-text: #ffffff; --contact-bg: #ffffff; --contact-text: var(--ink); --contact-muted: var(--muted); --shadow: rgba(23, 122, 69, .14);
+  --ink: #064e3b; --heading: #059669; --muted: #64748b; --muted-strong: #334155; --paper: #ffffff; --paper-deep: #f0fdf4; --surface: #ffffff;
+  --line: rgba(6, 78, 59, .12); --line-subtle: rgba(6, 78, 59, .06); --forest: #10b981; --forest-deep: #047857; --moss: #d1fae5; --blue: #10b981; --blue-pale: #ecfdf5; --orange: #10b981; --link: #059669; --link-hover: #047857; --action-bg: #059669; --action-text: #ffffff; --contact-bg: #ffffff; --contact-text: var(--ink); --contact-muted: var(--muted); --shadow: rgba(16, 185, 129, .15);
 }
 
 #palette-violet:checked ~ .site-shell {
