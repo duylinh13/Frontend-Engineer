@@ -339,6 +339,8 @@ section[id] { scroll-margin-top: 24px; }
   .project-caro { grid-column: 7 / -1; margin-top: 0; }
   .project-kpa .project-visual { min-height: 348px; }.project-caro .project-visual { min-height: 410px; }
   .project-caro .project-copy { padding-left: clamp(26px, 3.5vw, 48px); }
+  .project:nth-child(even):not(.project-featured):not(.project-kpa):not(.project-caro) { grid-column: 1 / span 6; }
+  .project:nth-child(odd):not(.project-featured):not(.project-kpa):not(.project-caro) { grid-column: 7 / -1; }
 }
 
 .visual-primeweb { display: grid; place-items: center; padding: 34px; background: color-mix(in srgb, var(--forest) 14%, white); }
